@@ -1,4 +1,4 @@
-package com.example.utils;
+package com.example.request;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.cert.X509Certificate;
 
-public class JdkHttpUtils {
+public class JdkHttpUtil {
 
     private static final String USER_AGENT = "Mozilla/5.0";
 
